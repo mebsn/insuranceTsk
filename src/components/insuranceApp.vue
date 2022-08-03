@@ -150,6 +150,11 @@ export default {
         }
       }
       this.totalPay = this.totalCompanyPay + this.totalEmployerPay;
+      let self = this;
+      setTimeout(function () {
+        self.days = null;
+        self.income = null;
+      }, 3000);
     },
   },
 };
