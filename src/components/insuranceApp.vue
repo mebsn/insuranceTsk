@@ -369,6 +369,7 @@ input[type="number"] {
 input[type="checkbox"] {
   width: 20px;
   height: 20px;
+  cursor: pointer;
 }
 input[type="checkbox"]:checked {
   width: 20px;
